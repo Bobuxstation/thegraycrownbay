@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Graycrown Bay: Quickly download Graycrown games without downloading Graycrown</title>
+    <meta charset= "utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div>
+        <img src="GrayCrownBay.png" class="logo">
+        <br><br>
+        <b>
+            Search Games |
+            <a href="allgames.html">Browse Games</a> |
+            <a href="allgames.html">Recent Games</a> |
+            <a href="allgames.html">Graycrown Top 5</a>
+        </b>
+        <br><br>
+        <input placeholder="Pirate Search" id="searchbox">
+        <br><br>
+        <button onclick="search()">Pirate Search</button>
+        &nbsp;
+        <button disabled title="No one is lucky in graycrown">Im Feeling Lucky</button>
+        <br><br>
+        <p>Quickly download Graycrown games without downloading Graycrown</p>
+        <p>&copy; Not Graycrown 2023</p>
+    </div>
+    <script>
+        function search() {
+            window.location.href = "search.html?search=" + document.getElementById("searchbox").value.toLowerCase();
+        }
+    </script>
+</body>
+</html>
