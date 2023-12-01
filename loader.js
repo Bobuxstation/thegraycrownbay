@@ -1,4 +1,4 @@
-fetch("https://zeankundev.github.io/cdn/Store.json")
+fetch("https://SerialDesignatorN.github.io/cdn/Store.json")
           .then((res) => {
             return res.json();
           })
